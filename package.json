@@ -1,0 +1,29 @@
+{
+  "name": "js-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeYef96/node-js-01.git"
+  },
+  "author": "Mike Yefymovych <mike.yef@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikeYef96/node-js-01/issues"
+  },
+  "homepage": "https://github.com/MikeYef96/node-js-01#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "commander": "^7.2.0",
+    "yargs": "^16.2.0"
+  }
+}
